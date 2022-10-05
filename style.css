@@ -7,7 +7,7 @@ body {
     background-color: rgb(225, 225, 225);
 }
 .calculadora {
-    width: 400px;
+    width: 360px;
     height: 600px;
     background-color: #0062b8;
     border-radius: 5px;
@@ -15,7 +15,7 @@ body {
 }
 
 .resultado {
-    width: 360px;
+    width: 320px;
     height: 100px;
     background-color: rgb(4, 50, 91);
     box-shadow: inset 20px 20px 60px #032b4d,
@@ -30,15 +30,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 15px;
-    left: 300px;
+    left: 260px;
 }
 
 .teclas {
-    width: 360px;
+    width: 320px;
     height: 440px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-columns: 70px 70px 70px 70px;
     grid-template-rows: 100px 100px 100px 100px; 
     column-gap: 13px;
     row-gap: 13px;
@@ -53,8 +53,7 @@ body {
     align-items: center;
     justify-content: center;
     color: rgb(4, 50, 91);
-    box-shadow: 10px 10px 20px;
-                
+    box-shadow: 10px 10px 20px;            
 }
 
 .boton:hover {
